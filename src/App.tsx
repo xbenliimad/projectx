@@ -1,12 +1,16 @@
-import './App.css'
+import "./App.css";
+import Home from "./pages/Home";
+// import '@fontsource/roboto/300.css';
+// import '@fontsource/roboto/400.css';
+// import '@fontsource/roboto/500.css';
+// import '@fontsource/roboto/700.css';
 
 function App() {
-
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  )
+    <>
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;
