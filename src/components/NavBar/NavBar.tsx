@@ -43,8 +43,8 @@ const NavBar = () => {
   ];
 
   return (
-    <section className="py-4">
-      <div className="w-full px-16 py-4">
+    <section className="py-4 sticky top-0 z-50">
+      <div className="w-full px-16 py-2">
         <nav className="flex items-center justify-between">
           <a
             href="/"
